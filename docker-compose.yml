@@ -28,7 +28,7 @@ services:
     build:
       context: .
       args:
-        - INSTALL_GOLANG=true
+        - INSTALL_GOLANG=false
     container_name: dockube_master
     hostname: dockube-master
     #domainname: dockube-master
